@@ -18,5 +18,8 @@
     "bugs": {
         "url": "https://github.com/kiranadh1452/complexityAnalysis-of-exampleTable/issues"
     },
-    "homepage": "https://github.com/kiranadh1452/complexityAnalysis-of-exampleTable#readme"
+    "homepage": "https://github.com/kiranadh1452/complexityAnalysis-of-exampleTable#readme",
+    "dependencies": {
+        "fs": "0.0.1-security"
+    }
 }
