@@ -1,0 +1,1 @@
+# Feature file that does not use any example table
