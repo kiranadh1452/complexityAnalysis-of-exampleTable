@@ -1,3 +1,5 @@
+const { BeforeAll, AfterAll, Before, After } = require("@cucumber/cucumber");
+
 BeforeAll(async function () {
     // some code here
 });

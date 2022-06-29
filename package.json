@@ -3,8 +3,9 @@
     "version": "1.0.0",
     "description": "This repo illustrates the complexities added (if any) by the use of example tables.",
     "devDependencies": {
-        "@cucumber/cucumber": "^7.3.1",
-        "@cucumber/pretty-formatter": "^1.0.0-alpha.1"
+        "@cucumber/cucumber": "^7.3.2",
+        "@cucumber/pretty-formatter": "^1.0.0-alpha.1",
+        "dotenv": "^16.0.1"
     },
     "scripts": {
         "test": "cucumber-js --require cucumber.config.js --require stepDefinitions/**/*.js --format @cucumber/pretty-formatter"
@@ -18,5 +19,8 @@
     "bugs": {
         "url": "https://github.com/kiranadh1452/complexityAnalysis-of-exampleTable/issues"
     },
-    "homepage": "https://github.com/kiranadh1452/complexityAnalysis-of-exampleTable#readme"
+    "homepage": "https://github.com/kiranadh1452/complexityAnalysis-of-exampleTable#readme",
+    "dependencies": {
+        "fs": "0.0.1-security"
+    }
 }
