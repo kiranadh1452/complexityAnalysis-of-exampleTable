@@ -55,5 +55,7 @@ const createContentWithTable = () => {
     );
 };
 
-createContentWithTable();
-createContentWithNoTable();
+case1 = () => {
+    createContentWithTable();
+    createContentWithNoTable();
+}
