@@ -1,4 +1,4 @@
-// write feature file such that there is no table
+// write feature file matching with case 1
 require("dotenv").config();
 const fs = require("fs");
 
