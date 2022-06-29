@@ -24,7 +24,7 @@ const createContentWithNoTable = () => {
     }
 
     fs.writeFile(
-        "features/noTables.feature",
+        "case1/noTables.feature",
         title + scenarioTitle + body,
         (err) => {
             if (err) throw err;
@@ -46,7 +46,7 @@ const createContentWithTable = () => {
     }
 
     fs.writeFile(
-        "features/tables.feature",
+        "case1/tables.feature",
         title + scenarioTitle + body + exampleTitle + exampleBody,
         (err) => {
             if (err) throw err;
@@ -59,3 +59,5 @@ case1 = () => {
     createContentWithTable();
     createContentWithNoTable();
 }
+
+case1();
