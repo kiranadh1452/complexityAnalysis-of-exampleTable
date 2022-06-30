@@ -5,14 +5,14 @@ import {
     createScenarioWithTable,
 } from "./helper.mjs";
 
-// Function to write scenario file `case1/noTables.feature`
+// Function to write feature file `case1/noTable.feature`
 const case1NoTable = () => {
     const path = "case1/noTable.feature";
     const content = createScenarioWithMultipleSteps(requiredSteps);
     writeToFile(path, content);
 };
 
-// Function to write scenario file `case1/tables.feature`
+// Function to write feature file `case1/withTable.feature`
 const case2WithTable = () => {
     const path = "case1/withTable.feature";
     const content = createScenarioWithTable(requiredSteps);

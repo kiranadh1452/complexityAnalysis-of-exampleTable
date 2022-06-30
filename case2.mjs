@@ -6,12 +6,14 @@ import {
     createScenarioWith3Steps,
 } from "./helper.mjs";
 
+// Function to write feature file `case2/withTable.feature`
 const case2WithTable = () => {
     const path = "case2/withTable.feature";
     const content = createScenarioWithTable(requiredSteps);
     writeToFile(path, content);
 };
 
+// Function to write feature file `case2/noTable.feature`
 const case2NoTable = () => {
     const path = "case2/noTable.feature";
     const featureTitle =
